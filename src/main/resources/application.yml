@@ -1,0 +1,27 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
+
+  #spring:
+  #  datasource:
+  #    driver-class-name: org.mariadb.jdbc.Driver
+  #    url: jdbc:mariadb://localhost:3307/mergeplanlocal?serverTimezone=Asia/Seoul
+  #    username: root
+  #    password: 1234
+
+
+#  main:
+#    allow-circular-references: true
+#
+#  jpa:
+#    hibernate:
+#      ddl-auto: none  # create, update, none
+#      naming:
+#        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+#    show-sql: true
+#    database: mysql

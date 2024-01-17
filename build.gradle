@@ -23,7 +23,7 @@ dependencies {
 	testAnnotationProcessor('org.projectlombok:lombok')
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa' // jpa
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
-	implementation 'org.mariadb.jdbc:mariadb-java-client' //jdbc driver
+	implementation group: 'org.mariadb.jdbc', name: 'mariadb-java-client', version: '3.0.5'
 }
 
 tasks.named('test') {

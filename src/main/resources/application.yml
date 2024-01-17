@@ -7,12 +7,12 @@ server:
       enabled: true
       force: true
 
-  spring:
-    datasource:
-      driver-class-name: org.mariadb.jdbc.Driver
-      url:
-      username:
-      password:
+spring:
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+    url:
+    username:
+    password:
 
 
   main:
@@ -24,4 +24,3 @@ server:
       naming:
         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
     show-sql: true
-    database: mysql

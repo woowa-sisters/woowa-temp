@@ -7,14 +7,14 @@ import org.springframework.boot.autoconfigure.web.WebProperties;
 
 @Builder
 @Entity
-@Table // (name="")
+@Table(name="user")
 @NoArgsConstructor
 public class User {
     @Id @GeneratedValue
-    @Column // (name="")
+    @Column(name="id")
     private Long id;
 
-    @Column
+    @Column(name="name")
     private String name;
 
     public User(Long id, String name){
